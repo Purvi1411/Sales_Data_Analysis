@@ -37,7 +37,7 @@ Git (optional, but recommended for version control)
 Setup
 Clone the Repository:
 
-git clone [https://github.com/Purvi1411/Sales_Data_Analysis..git](https://github.com/Purvi1411/Sales_Data_Analysis..git)
+git clone [https://github.com/Purvi1411/Sales_Data_Analysis.git](https://github.com/Purvi1411/Sales_Data_Analysis.git)
 cd sales-data-analysis
 
 Create a Virtual Environment:
