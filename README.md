@@ -22,11 +22,11 @@ Identify top-performing cities based on sales data.
 Analyze customer behavior by identifying the most valuable customers and their average order size.
 
 Project Findings
-Total Revenue: [Total revenue number]. The average order value was [AOV number], indicating the average amount a customer spends per transaction.
+Total Revenue: $137,348,768.31. The average order value was $1,373,487.68, indicating the average amount a customer spends per transaction.
 
-Best-Selling Products: The top-selling product was [Top Product Name], which contributed significantly to the overall sales. The most profitable product category was [Most Profitable Category].
+Best-Selling Products: The top-selling category contributed significantly to the overall sales. The most profitable product category was Cosmetics.
 
-Top Customers: We identified our most valuable customers based on their total spending, with the top customer having spent over [Their Total Spending].
+Top Customers: We identified our most valuable customers based on their total spending, with the top customer having spent over $5997054.98 .
 
 How to Run the Project
 Prerequisites
@@ -37,7 +37,7 @@ Git (optional, but recommended for version control)
 Setup
 Clone the Repository:
 
-git clone [https://github.com/Purvi1411/your-repository-name.git](https://github.com/Purvi1411/your-repository-name.git)
+git clone [https://github.com/Purvi1411/Sales_Data_Analysis..git](https://github.com/Purvi1411/Sales_Data_Analysis..git)
 cd sales-data-analysis
 
 Create a Virtual Environment:
