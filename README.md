@@ -36,7 +36,7 @@ Languages: Python
 
 How to Run the Application
 Clone the Repository:
-[Provide the command to clone your project from a platform like GitHub.]
+(https://github.com/Purvi1411/Full-Stack_Sales_Optimization_Engine-_From_Raw_Data_to_Live-BI..git)
 
 Install Dependencies:
 pip install -r requirements.txt
@@ -49,4 +49,3 @@ streamlit run app.py
 
 
 
-G
