@@ -1,61 +1,52 @@
-Sales Data Analysis
-Project Overview
-This project is a comprehensive data analysis of an e-commerce sales dataset. The goal of this project was to apply key data analytics techniques, from data cleansing to advanced visualization, to uncover actionable business insights.
+Full-Stack Sales Optimization Engine: From Raw Data to Live BI.
+Overview
+This project demonstrates the complete workflow of a Data Scientist by transitioning raw, historical sales data into a live, interactive Business Intelligence (BI) application using Streamlit. The core objective is to provide dynamic tools for optimizing sales performance, tracking key metrics, and visualizing revenue trends in real-time.
 
-Project Goals
-Sales and Revenue Analysis:
+Dataset
+The analysis is based on historical Amazon Sales Data. Key metrics include:
 
-Determine overall sales performance and total revenue.
+Time Series: Order Date
 
-Calculate the average order value to understand typical customer spending.
+KPIs: Total Revenue, Total Profit
 
-Product and Category Analysis:
+Dimensions: Region, Item Type
 
-Identify the top-selling products and most profitable categories.
+Methodology
+Refactoring & Modularization: All core analysis logic (KPI calculation, trend plotting) was successfully moved from Jupyter Notebooks into reusable Python functions within the src/analysis.py file, ensuring modularity and maintainability.
 
-Analyze product ratings and reviews to understand customer sentiment.
+Web Integration (Streamlit): The app.py file uses Streamlit to create the full-stack application, linking the user interface (interactive filters) with the backend logic.
 
-Geographical and Customer Analysis:
+Deployment: The final application is deployed to the Streamlit Community Cloud, making it accessible as a public-facing web service.
 
-Identify top-performing cities based on sales data.
+Key Features
+Interactive Filters: Users can instantly filter all metrics and charts by Region and Item Type using the sidebar.
 
-Analyze customer behavior by identifying the most valuable customers and their average order size.
+Live KPI Display: Total Revenue and Total Profit metrics update in real-time based on the applied filters.
 
-Project Findings
-Total Revenue: $137,348,768.31. The average order value was $1,373,487.68, indicating the average amount a customer spends per transaction.
+Time Series Analysis: Displays interactive charts (using Plotly) of sales/revenue trends over time.
 
-Best-Selling Products: The top-selling category contributed significantly to the overall sales. The most profitable product category was Cosmetics.
+Tools and Technologies
+Framework: Streamlit (for the full-stack web application)
 
-Top Customers: We identified our most valuable customers based on their total spending, with the top customer having spent over $5997054.98 .
+Data Science: Pandas (data processing)
 
-How to Run the Project
-Prerequisites
-Python 3.x
+Visualization: Plotly Express (interactive charts)
 
-Git (optional, but recommended for version control)
+Languages: Python
 
-Setup
+How to Run the Application
 Clone the Repository:
-
-git clone [https://github.com/Purvi1411/Sales_Data_Analysis.git](https://github.com/Purvi1411/Sales_Data_Analysis.git)
-cd sales-data-analysis
-
-Create a Virtual Environment:
-
-python -m venv venv
-
-Activate the Virtual Environment:
-
-Windows (PowerShell): .\venv\Scripts\activate
-
-macOS/Linux: source venv/bin/activate
+[Provide the command to clone your project from a platform like GitHub.]
 
 Install Dependencies:
+pip install -r requirements.txt
 
-pip install pandas numpy matplotlib seaborn jupyter openpyxl
+Launch the Dashboard: Navigate to the project's root directory in your terminal and run:
+streamlit run app.py
 
-Run the Jupyter Notebook:
 
-jupyter notebook
 
-Open the sales_analysis.ipynb file in your browser to view and run the analysis.
+
+
+
+G
