@@ -1,4 +1,4 @@
-Full-Stack Sales Optimization Engine: From Raw Data to Live BI.
+Sales_Data_Analysis
 Overview
 This project demonstrates the complete workflow of a Data Scientist by transitioning raw, historical sales data into a live, interactive Business Intelligence (BI) application using Streamlit. The core objective is to provide dynamic tools for optimizing sales performance, tracking key metrics, and visualizing revenue trends in real-time.
 
@@ -36,7 +36,7 @@ Languages: Python
 
 How to Run the Application
 Clone the Repository:
-(https://github.com/Purvi1411/Full-Stack_Sales_Optimization_Engine-_From_Raw_Data_to_Live-BI..git)
+(https://github.com/Purvi1411/Sales_Data_Analysis.git)
 
 Install Dependencies:
 pip install -r requirements.txt
