@@ -1,0 +1,8 @@
+# Core Libraries for the Streamlit Dashboard
+streamlit==1.50.0       # The web application framework
+pandas==2.1.1           # For data manipulation and loading the CSV
+plotly==6.3.1           # For interactive charts (Plotly Express)
+
+# Common Dependencies (Needed for a clean install)
+numpy==1.26.0           # Required by Pandas
+pyarrow==21.0.0         # Often a dependency for fast data handling in Streamlit
